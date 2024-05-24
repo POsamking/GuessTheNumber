@@ -1,0 +1,48 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin-left: 1%;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 170%;
+    color: black;
+}
+
+#title {
+    color: darkblue;
+    font-size: 55px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#resetButton:hover {
+    background-color: green;
+}
+
+#checkGuessButton{
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#checkGuessButton:hover {
+    background-color: white;
+    color: black;
+}
