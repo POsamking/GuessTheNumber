@@ -10,10 +10,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <input type="number" id="player1" placeholder="Player 1 Enter your score"> 
+    <input type="number" id="player2" placeholder="Player 2 Enter your score"> 
     <h1 id="title">Guess the Number</h1>
-    <p>Do you think you can guess the number between 1 and 20?</p>
-    <p>See if you can guess it.</p>
-    <input type="text" id="guessInput" placeholder="Enter your guess">
+    <p id="slogan">Pick a number between 1 & 20?</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess">
     <button id="checkGuessButton" onclick="checkGuess()">Check</button>
     <p id="result"></p>
     <button id="resetButton">Reset Game</button>

@@ -11,8 +11,23 @@ body {
 }
 
 #title {
-    color: darkblue;
+    color: rgb(147, 70, 34);
     font-size: 55px;
+    background-color: black;
+    padding: 10px;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 10px;
+}
+
+#slogan {
+    color: rgb(147, 70, 34);
+    background-color: black;
+    padding: 10px;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 10px;
+
 }
 
 #result {
@@ -30,7 +45,8 @@ body {
 }
 
 #resetButton:hover {
-    background-color: green;
+    background-color: white;
+    color: black;
 }
 
 #checkGuessButton{
@@ -40,9 +56,47 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 15px;
+    
 }
 
 #checkGuessButton:hover {
-    background-color: white;
+    background-color: green;
     color: black;
+}
+
+#guessInput {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    border-color: gray;
+}
+
+#player1{
+    position: relative;
+    float: left;
+    color: blue;
+    background-color: black;
+    padding-bottom: 50px;
+    width: 15%;
+    text-align: center;
+    font-size: medium;
+    border-color: blue;
+    border-style: ridge;
+    border-width: 5px;
+}
+
+#player2{
+    position: relative;
+    float: right;
+    color: red;
+    background-color: black;
+    padding-bottom: 50px;
+    width: 15%;
+    text-align: center;
+    font-size: medium;
+    border-color: red;
+    border-style: ridge;
+    border-width: 5px;
 }
