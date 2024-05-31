@@ -18,7 +18,7 @@ resetGame();
 });
 
 function resetGame () {
-    randomNumber = Math, floor(math.random()* 20)+1;
+    randomNumber = Math, floor(math.random()* 10)+1;
     document.getElementById('guessInput').value = '';
     document.getElementById('result').textContent ='';
 }
